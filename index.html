@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    <title>formulario cotactenos</title>
+</head>
+<body>
+    <div class="form">
+        <h2>Contacto</h2>
+        <form action="/submit-form" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="username" name="nombre" required>
+
+            <label for="correo">Correo:</label>
+            <input type="email" id="email" name="correo" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="msj" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
