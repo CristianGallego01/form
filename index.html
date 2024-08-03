@@ -4,20 +4,22 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>formulario cotactenos</title>
 </head>
 <body>
-    <div class="form">
+    <div class="container">
         <h2>Contacto</h2>
-        <form action="/submit-form" method="post">
+        <form  id="form">
             <label for="nombre">Nombre:</label>
-            <input type="text" id="username" name="nombre" required>
+            <input type="text" id="username" name="username" required>
 
             <label for="correo">Correo:</label>
-            <input type="email" id="email" name="correo" required>
+            <input type="email" id="email" name="email" required>
 
             <label for="mensaje">Mensaje:</label>
-            <textarea id="msj" name="mensaje" required></textarea>
+            <textarea id="msg" name="msg" required></textarea>
 
             <button type="submit">Enviar</button>
         </form>

@@ -8,7 +8,7 @@ body {
     margin: 0;
 }
 
-.form {
+.container {
     background-color: #58d1e6;
     padding: 30px;
     border-radius: 10px;
@@ -18,7 +18,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.form h2 {
+.container h2 {
     margin-top: 0;
     margin-bottom: 20px;
     font-size: 24px;
@@ -27,7 +27,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.form label {
+.container label {
     display: block;
     margin-bottom: 8px;
     font-weight: 500;
@@ -35,9 +35,9 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.form input[type="text"],
-.form input[type="email"],
-.form textarea {
+.container input[type="text"],
+.container input[type="email"],
+.container textarea {
     width: calc(100% - 22px);
     padding: 12px;
     margin-bottom: 20px;
@@ -50,19 +50,19 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.form input:focus,
-.form textarea:focus {
+.container input:focus,
+.container textarea:focus {
     border-color:black;
     box-shadow: 5 5 8px rgba(0, 123, 255, 0.25);
     outline: none;
 }
 
-.form textarea {
+.container textarea {
     resize: vertical;
     height: 120px;
 }
 
-.form button {
+.container button {
     width: 100%;
     background-color: #2283ea;
     color: #ffffff;
@@ -75,13 +75,13 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.form button:hover {
+.container button:hover {
     background-color: #0056b3;
     transform: translateY(-2px);
     box-shadow: 8px 8px black;
 }
 
-.form button:active {
+.container button:active {
     background-color: #004085;
     transform: translateY(0);
     
